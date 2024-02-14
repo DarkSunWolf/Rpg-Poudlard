@@ -1,5 +1,5 @@
 body {
-    background-image: url('fond_image.jpg'); /* Remplacez 'fond_image.jpg' par le chemin de votre image de fond */
+    background-image: url('https://images.assetsdelivery.com/compings_v2/littlekop/littlekop2003/littlekop200300455.jpg'); /* Remplacez 'fond_image.jpg' par le chemin de votre image de fond */
     background-size: cover;
     margin: 0;
     padding: 0;
