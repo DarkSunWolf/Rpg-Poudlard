@@ -25,7 +25,7 @@ def login():
         # Redirect to the new page if login is successful
         return redirect('/cours_ouest_du_chateau')
     else:
-        flash('Votre identifiant ou votre mot de passe est incorrect. Cela peut-être dû à une candidature non validée ou une faute de frappe. 😊', 'error')
+        flash('Votre identifiant ou votre mot de passe est incorrect. Cela peut-être dû à une candidature pas encore validée ou une faute de frappe. 😊', 'error')
         return redirect('/')
 
 # Registration page
