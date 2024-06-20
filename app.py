@@ -35,6 +35,7 @@ def inscription():
         prenom = request.form['prenom']
         nom = request.form['nom']
         password = request.form['password']
+        email = request.form['email']
 
         if prenom and nom and password:
             # Placeholder for sending email
