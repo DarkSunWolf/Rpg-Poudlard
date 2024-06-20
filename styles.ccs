@@ -1,25 +1,46 @@
-body {
-    background-image: url(https://images.assetsdelivery.com/compings_v2/littlekop/littlekop2003/littlekop200300455.jpg); /* Remplacez 'fond_image.jpg' par le chemin de votre image de fond */
-    background-size: cover;
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page avec Image de Fond</title>
+    <style>
+        body {
+            background-image: url('https://images.assetsdelivery.com/compings_v2/littlekop/littlekop2003/littlekop200300455.jpg');
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
 
-#menu {
-    float: left;
-    width: 20%;
-    background-color: #f1f1f1;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
+        #menu {
+            float: left;
+            width: 20%;
+            background-color: #f1f1f1;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
 
-#content {
-    margin-left: 25%;
-    padding: 20px;
-    color: #fff; /* Couleur du texte pour le contenu principal */
-}
+        #content {
+            margin-left: 25%;
+            padding: 20px;
+            color: #fff;
+        }
 
-input, button {
-    margin-bottom: 10px;
-}
+        input, button {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="menu">
+        <h2>Menu</h2>
+        <!-- Contenu du menu -->
+    </div>
+    <div id="content">
+        <h1>Contenu Principal</h1>
+        <!-- Contenu principal -->
+    </div>
+</body>
+</html>
+
