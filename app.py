@@ -9,7 +9,7 @@ from database import init_db, get_db_connection
 load_dotenv()
 
 app = Flask(__name__)
-app.secret_key = os.getenv('SECRET_KEY')
+app.secret_key = os.getenv('SECRET_KEY')  # Utilisation de la clé secrète depuis les variables d'environnement
 
 # Configuration de Flask-Mail
 app.config['MAIL_SERVER'] = 'smtp.gmail.com'
