@@ -27,7 +27,7 @@ init_db()
 # Page d'accueil
 @app.route('/')
 def home():
-    return render_template('home.html')
+    return render_template('index.html')
 
 # Page de connexion
 @app.route('/login', methods=['POST'])
@@ -56,7 +56,7 @@ def inscription():
 
         # Validation du mot de passe
         if not re.match(r'^(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{9,})', password):
-            flash('Le mot de passe doit contenir au moins 9 caractères, un chiffre et un caractère spécial.', 'error')
+            flash('Le mot de passe doit contenir au moins 9 caractères, un chiffre et un caractère spécial !@#$%^&* .', 'error')
             return redirect('/inscription')
 
         if prenom and nom and email and password:
